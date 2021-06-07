@@ -6,8 +6,11 @@ import SearchIcon from '@material-ui/icons/Search';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 import QueueMusicIcon from '@material-ui/icons/QueueMusic';
+import { useDataLayerValue } from './DataLayer';
 
 function Sidebar() {
+    const [{playlists},dispatch] = useDataLayerValue()
+    console.log("cheeckout  :",playlists)
     return (
         <div className="sidebar">
             <img 
@@ -17,9 +20,13 @@ function Sidebar() {
             <SidebarOptions Icon={HomeIcon} title = "Home"/>
             <SidebarOptions Icon={SearchIcon} title = "Search"/>
             <SidebarOptions Icon={LibraryMusicIcon} title = "Your Libray"/>
-            <strong>PLAY</strong>
+            <br />
+            <strong className="sidebar__title">PLAYLISTS</strong>
             <hr />
-            
+            {playlists?.items?.map(playlists => (
+                <SidebarOptions title={playlists.name}/>
+            ))}
+ 
         </div>
     )
 }
