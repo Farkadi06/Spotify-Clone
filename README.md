@@ -1,3 +1,12 @@
+# Spotify Profile
+> A web app for visualizing personalized Spotify Playlists data
+
+Built with a bunch of things, but to name a few:
+
+- [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
+- [Create React App](https://github.com/facebook/create-react-app)
+- React state management
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
