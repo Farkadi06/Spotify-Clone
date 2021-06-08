@@ -7,6 +7,12 @@ Built with a bunch of things, but to name a few:
 - [Create React App](https://github.com/facebook/create-react-app)
 - React state management
 
+# Demo of the Application 
+
+<img src="./LoginScreen.png"/>
+
+<img src="./PlaylistMenu.png"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
