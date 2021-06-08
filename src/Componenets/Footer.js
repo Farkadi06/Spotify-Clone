@@ -15,11 +15,11 @@ function Footer() {
             <div className="footer__left">
                 <img 
                     className="footer__albumLogo"
-                    src="http://wasabi-files.lbstatic.nu/files/users/large/5750587_open-uri20160525-19436-rvedgz.jpg?1464210142" 
+                    src="https://api.time.com/wp-content/uploads/2017/04/damn-kendrick-lamar.jpg" 
                     alt="" />
                 <div className="footer__songInfo">
-                    <h4>Bi*** form Pakistan waraaap</h4>
-                    <p>Houssam Riad</p>
+                    <h4>HUMBLE.</h4>
+                    <p>Kendrick Lamar - DAMN.</p>
                 </div>
             </div>
             <div className="footer__center">
