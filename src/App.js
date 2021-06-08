@@ -37,6 +37,12 @@ function App() {
         })
         console.log("Herrrrrrrrrrrrrr :",playlists)
       })
+      spotify.getPlaylist('44qrQpqIAcAaAPw95FOodb').then((response) => {
+          dispatch({
+            type:'SET_DISCOVER_WEEKLY',
+            discover_weekly: response
+          })
+      })
     }
     
   },[])
